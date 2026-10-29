@@ -10,10 +10,13 @@ import random
 # forward - passes inputs through the neural network and returns the output
 # mutate - mutates neural network based on a normal distribution, takes in inputs of range 0-1 of how likely a given weight is to mutate, and the standard deviation
 #
+# Activation Functions:
+# identity
 # sigmoid
 # relu
 # tanH
-
+# binary step
+#
 # Input Neurons are:
 # (Normalised) angle to nearest creature
 # (Normalised) angle to nearest food
